@@ -179,8 +179,8 @@ def login():
         acceptCookiesBtn.click()
     except: pass
 
-    username = "paigetodayx"
-    password = "Paige1337"
+    username = "USERNAME"
+    password = "PASSWORD"
 
     userInputElement = W(driver, 10).until(EC.presence_of_element_located((By.ID, "username")))
     passInputElement = W(driver, 10).until(EC.presence_of_element_located((By.ID, "password")))
